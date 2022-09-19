@@ -12,6 +12,10 @@ body {
 	background-color: white;
 }
 
+#content {
+	padding-left: 20px;
+}
+
 header {
 	background-color: #000033;
 }
@@ -43,6 +47,7 @@ nav a:link
 h1 {
 	margin-bottom: 0;
 	padding: 10px;
+	color:white
 }
 
 h2 {
@@ -64,4 +69,13 @@ dt {
 
 footer {
 	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	font-size: 0.7em;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.resort {
+	font-weight: bold;
+	color: rgb(76, 76, 165)
 }
