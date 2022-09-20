@@ -1,13 +1,14 @@
 header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
+
 body {
 	background-color: #00569f;
 	background-image: linear-gradient(#EFF4F8, #00569f);
 	background-repeat: no-repeat;
 	color: #666666;
 	font-family: Arial, Helvetica, sans-serif;
-	padding-left: 20%;
+	padding-left: 25%;
 }
 
 #wrapper {
