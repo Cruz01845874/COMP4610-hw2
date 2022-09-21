@@ -8,13 +8,13 @@ body {
 	background-repeat: no-repeat;
 	color: #666666;
 	font-family: Arial, Helvetica, sans-serif;
-	/* padding-left: 25%; */
+	padding-left: 10%; 
+	padding-right: 10%;
 }
 
 #wrapper {
 	background-color: white;
 	min-width: 600px;
-	/* margin-right: 600px; */
 }
 
 #content {
@@ -43,7 +43,7 @@ nav {
 	left: 400;
 	overflow-x: hidden;
 	padding-right: 20px; 
-	padding-bottom: 509px;
+	height: max-content;
 }
 
 nav ul {
