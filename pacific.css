@@ -19,7 +19,6 @@ body {
 
 #content {
 	padding-left: 200px;
-	word-wrap: normal;
 }
 
 #content li {
@@ -43,7 +42,7 @@ nav {
 	left: 400;
 	overflow-x: hidden;
 	padding-right: 20px; 
-	height: max-content;
+	height: 65%;
 }
 
 nav ul {
@@ -97,5 +96,5 @@ footer {
 
 .resort {
 	font-weight: bold;
-	color: rgb(76, 76, 165)
+	color: rgb(91, 91, 199)
 }
