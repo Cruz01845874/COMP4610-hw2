@@ -13,47 +13,41 @@ body {
 }
 
 #wrapper {
-	background-color: white;
+	background-color: lightblue;
 	min-width: 600px;
+	width: 90%;
+	margin: 0 auto;
 }
 
 #content {
-	padding-left: 250px;
+	margin-left: 190px;
+	background-color: #FFFFFF;
+	padding-left: 20px;
 }
 
 #content li {
 	list-style-image: url('marker.gif');
-
 }
 
 header {
-	background-color: #000033;
+	background: #000033;
 	background-image: url('sunset.jpg');
 	background-repeat: no-repeat;
 	background-position-x: right;
 }
 
 nav {
-	background-color: #3399CC;
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bold;
-
-	/* Position of sidebar
-	position: fixed;
-	z-index: 1; 
-	top: 77px;
-	overflow-x: hidden; 
-	padding-right: 20px; 
-	height: 100%;*/
-
-	position:fixed;
-	padding-bottom: 500px;
-	padding-right: 50px;
-	z-index: 100;
+	width: 190px;
+	float: left;
+	background-color: lightblue;
 }
 
 nav ul {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
 	font-size: 1.2em;
+	margin: 0;
+	padding: 20px;
 	list-style-type: none;
 }
 
@@ -71,12 +65,14 @@ nav a:link
 }
 
 h1 {
-	margin-bottom: 0;
+	margin: 0;
 	padding: 10px;
-	color:white
+	color:white;
 }
 
 h2 {
+	padding: 20px 0;
+	margin: 0;
 	color: #3399CC;
 }
 
@@ -89,6 +85,11 @@ h2 {
 	font-size: 90%;
 }
 
+img {
+	float:left;
+	margin-right:30px;
+}
+
 dt {
 	color: #000033;
 }
@@ -97,8 +98,10 @@ footer {
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: italic;
 	font-size: 0.7em;
-	padding-left: 250px;
-	padding-bottom: 25px;
+	padding-left: 60px;
+	padding-bottom: 10px;
+	margin-left: 190px;
+	background-color: #FFFFFF;
 }
 
 .resort {
